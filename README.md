@@ -11,7 +11,7 @@ Bu depo, **İzmir Büyükşehir Belediyesi Âşık Veysel Gençlik Merkezi** bü
 
 ### 📅 Eğitim Takvimi ve İçerik
 - [x] **Hafta 1:** SQL Temelleri, Filtreleme (`WHERE`, `IN`, `BETWEEN`), Gruplama ve Kümeleme (`GROUP BY`, `AVG`)
-- [ ] **Hafta 2:** *Ders işlendikçe güncellenecektir.*
+- [x] **Hafta 2:** İleri Düzey Filtreleme, `HAVING`, Geçici Tablolar (`#temp`) ve JOIN Türleri
 - [ ] **Hafta 3:** *Ders işlendikçe güncellenecektir.*
 - [ ] **Hafta 4:** *Ders işlendikçe güncellenecektir.*
 - [ ] **Hafta 5:** *Ders işlendikçe güncellenecektir.*
@@ -21,3 +21,4 @@ Bu depo, **İzmir Büyükşehir Belediyesi Âşık Veysel Gençlik Merkezi** bü
 
 ### 📂 Dizin Yapısı
 * `week-01-fundamentals/`: Temel SQL sözdizimi, filtreleme, kümeleme ve ilk ders notları.
+* `week-02-filtering-and-joins/`: İleri düzey filtreleme, geçici tablolar, desen arama, `JOIN` türleri ve özet notlar.

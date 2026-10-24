@@ -43,12 +43,12 @@ SELECT * FROM customers;
 SELECT city, AVG(total_money_spent) FROM customers GROUP BY city;
 
 -- 12. Şehir bazında ortalama harcama tutarları
-SELECT city, AVG(total_money_spent) as average_total_money_spent FROM customers GROUP BY city;
+SELECT city, AVG(total_money_spent) AS average_total_money_spent FROM customers GROUP BY city;
 
-SELECT state,city, AVG(total_money_spent) as average_total_money_spent FROM customers GROUP BY city,state;
+SELECT state,city, AVG(total_money_spent) AS average_total_money_spent FROM customers GROUP BY city,state;
 
 -- 13. Eyalet ve şehir bazında ortalama harcama tutarları (Azalan sırada)
-SELECT state,city, AVG(total_money_spent) as average_total_money_spent FROM customers GROUP BY city,state ORDER BY average_total_money_spent DESC;
+SELECT state,city, AVG(total_money_spent) AS average_total_money_spent FROM customers GROUP BY city,state ORDER BY average_total_money_spent DESC;
 
 -- 14. TX (Teksas) eyaletinde olmayan müşteriler
 SELECT * FROM customers WHERE state!='TX';
